@@ -13,24 +13,24 @@
 
 **What they do:** Personal AI robot (MARS, $995) you teach with code, language, and demonstrations. Open-source Innate OS plus a browser simulator.
 
-**Value item:** BUILD: a skill in Innate OS run in sim.innate.bot. Bonus: site says "Teach MARS a task with one example" in one section and "Teach with a few examples" in another.
+**Value item:** BUILD (done): odometry-drift check skill for Innate OS. Bonus: site says "Teach MARS a task with one example" in one section and "Teach with a few examples" in another.
 
-**Build:** Innate OS skill in sim.innate.bot (github.com/innate-inc/innate-os)
+**Build:** DONE: builds/innate-odom-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)
 
 **Notes:** Careers page says degrees don't matter. Strong fit.
 
-> Before sending: Fill in [BUILD LINK] and [ONE LINE ON WHAT IT DOES] once the build is done and you've read it.
+> Before sending: Read the build's README so you can talk about it, and make sure the link works.
 
 ## Email
 
-**Subject:** Made a MARS skill in your simulator
+**Subject:** Wrote an odometry-drift check skill for MARS
 
 ```
 Hi Vignesh,
 
-I made a small skill for MARS in your simulator: [ONE LINE ON WHAT IT DOES]. Code and a clip are here: [BUILD LINK]. I built it with Claude's help, and the README explains how it works.
+I wrote a MARS skill that drives a square on wheel odometry, then checks against the lidar map how far the wheels drifted, so an owner knows when a new floor is throwing off navigation: https://github.com/Venkat960407/robotics-builds/tree/main/innate-odom-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. I built it with Claude's help, and the README explains how it works.
 
-I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Your careers section says skill matters more than degrees, which is exactly why I'm writing. One small thing: the MARS section says you can teach a task "with one example" while the OS section says "a few examples."
+I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Your careers section says skill matters more than degrees, which is exactly why I'm writing.
 
 I'm a sophomore, so I know this is unusual, but I'd love to help with something small, part-time now or this summer. Would you be open to a quick 15-minute call?
 

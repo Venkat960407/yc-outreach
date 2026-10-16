@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Tier | A |
+| Tier | B |
 | YC batch | S22 |
 | Team size | 25 |
 | Location | San Francisco |
@@ -13,24 +13,24 @@
 
 **What they do:** Autonomy software for industrial vehicles (tractors, mining trucks) controlled through a REST API. Free simulator called Caladan.
 
-**Value item:** BUILD: a Python behavior for the free Caladan sim (farm environment). Bonus: homepage browser tab shows "Autonomy &amp; Safety" instead of "&".
+**Value item:** API reference pages for /v2/relative-waypoints and /v2/polymath-feedback show no request or response fields (VERIFY in a browser: synapse.docs.polymathrobotics.dev/docs/api/relative-waypoints). Homepage tab title shows "Autonomy &amp; Safety". Planned Caladan build was blocked: the API needs credentials from Polymath support.
 
-**Build:** Caladan Python behavior (farm env), e.g. waypoint row coverage with a simple PID heading controller
+**Build:** None (observation only)
 
-**Notes:** Caladan is free and uses a REST API instead of ROS. Best build target in this batch.
+**Notes:** Was Tier A. API needs credentials from Polymath support, so no build. Could become Tier A if they grant Caladan access.
 
-> Before sending: Fill in [BUILD LINK] and [ONE LINE ON WHAT IT DOES] once the build is done and you've read it.
+> Before sending: Open the site and confirm this before sending.
 
 ## Email
 
-**Subject:** Built a small behavior in Caladan
+**Subject:** Two small things in the Synapse API docs
 
 ```
 Hi Ilia,
 
-I put together a small behavior in Caladan this week: [ONE LINE ON WHAT IT DOES]. Code and a short clip are here: [BUILD LINK]. I built it with Claude's help, and the README walks through how it works.
+I was reading the Synapse API docs to write a small Caladan behavior, and the pages for /v2/relative-waypoints and /v2/polymath-feedback don't list any request or response fields, so there's no way to see what a waypoint looks like before getting credentials. Also, the browser tab on your homepage reads "Autonomy &amp; Safety" instead of "&".
 
-I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Writing behaviors in Python against your API felt a lot like tuning our robot's autonomous routines, which is why Polymath caught my eye. Small thing too: the browser tab on your homepage reads "Autonomy &amp; Safety" instead of "&".
+I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. If you'd ever give a student Caladan access, I'd love to build something with it.
 
 I'm a sophomore, so I know this is unusual, but I'd love to help with something small, part-time now or this summer. Would you be open to a quick 15-minute call?
 

@@ -46,8 +46,8 @@ def write_company_files(cos):
         c["file"] = f"companies/{c['batch']:02d}-{i:02d}-{c['slug']}.md"
         body = email_body(c)
         c["words"] = len(re.findall(r"\S+", body.split("Thanks,")[0]))
-        verify = "Open the site and confirm this before sending." if c["build"] is None else \
-                 "Fill in [BUILD LINK] and [ONE LINE ON WHAT IT DOES] once the build is done and you've read it."
+        verify = ("Open the site and confirm this before sending." if c["build"] is None else
+                  "Read the build's README so you can talk about it, and make sure the link works.")
         md = f"""# {c['name']}
 
 | | |
@@ -122,7 +122,10 @@ def build_tracker(cos, path):
     ci = {h: j for j, h in enumerate(COLS, 1)}
     for i, c in enumerate(cos, 2):
         old = prev.get(c["name"], {})
-        status = old.get("Status") or ("Waiting on build" if c["build"] else "Ready to review")
+        needs_build = bool(c["build"]) and not c["build"].startswith("DONE")
+        status = old.get("Status")
+        if not status or (status == "Waiting on build" and not needs_build):
+            status = "Waiting on build" if needs_build else "Ready to review"
         vals = {"#": i - 1, "Batch": c["batch"], "Company": c["name"], "Tier": c["tier"],
                 "Contact": c["contact"], "Role": c["role"], "Email": c["email"],
                 "Email status": c["email_status"], "What they do": c["what"], "Value item": c["value"],

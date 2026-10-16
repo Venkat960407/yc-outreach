@@ -13,6 +13,8 @@ STOCK = ("I built a stock research tool where a verifier checks every number an 
          "market data. In testing it caught 18 of 18 injected errors with zero false positives: "
          "github.com/Venkat960407/stock-research-assistant")
 
+B = "https://github.com/Venkat960407/robotics-builds/tree/main/"
+
 PROOF = {"VEX": VEX, "AUDIO": AUDIO, "STOCK": STOCK}
 
 COMPANIES = [
@@ -30,33 +32,32 @@ COMPANIES = [
               "so camera-based positioning on drones is really interesting to me."),
          build=None, notes="Defense customer. Some roles may need US-person status (Venkat is US-born, so fine)."),
 
-    dict(slug="polymath-robotics", name="Polymath Robotics", tier="A", yc="S22", size=25, loc="San Francisco",
+    dict(slug="polymath-robotics", name="Polymath Robotics", tier="B", yc="S22", size=25, loc="San Francisco",
          what="Autonomy software for industrial vehicles (tractors, mining trucks) controlled through a REST API. Free simulator called Caladan.",
          contact="Ilia Baranov", role="Co-founder & CTO", first="Ilia",
          email="ilia@polymathrobotics.com", email_status="guess",
          website="https://www.polymathrobotics.com", proof="VEX",
-         subject="Built a small behavior in Caladan",
-         value="BUILD: a Python behavior for the free Caladan sim (farm environment). Bonus: homepage browser tab shows \"Autonomy &amp; Safety\" instead of \"&\".",
-         opener=("I put together a small behavior in Caladan this week: [ONE LINE ON WHAT IT DOES]. "
-                 "Code and a short clip are here: [BUILD LINK]. I built it with Claude's help, and the README walks through how it works."),
-         why=("Writing behaviors in Python against your API felt a lot like tuning our robot's autonomous routines, "
-              "which is why Polymath caught my eye. Small thing too: the browser tab on your homepage reads "
-              "\"Autonomy &amp; Safety\" instead of \"&\"."),
-         build="Caladan Python behavior (farm env), e.g. waypoint row coverage with a simple PID heading controller",
-         notes="Caladan is free and uses a REST API instead of ROS. Best build target in this batch."),
+         subject="Two small things in the Synapse API docs",
+         value="API reference pages for /v2/relative-waypoints and /v2/polymath-feedback show no request or response fields (VERIFY in a browser: synapse.docs.polymathrobotics.dev/docs/api/relative-waypoints). Homepage tab title shows \"Autonomy &amp; Safety\". Planned Caladan build was blocked: the API needs credentials from Polymath support.",
+         opener=("I was reading the Synapse API docs to write a small Caladan behavior, and the pages for /v2/relative-waypoints and /v2/polymath-feedback "
+                 "don't list any request or response fields, so there's no way to see what a waypoint looks like before getting credentials. "
+                 "Also, the browser tab on your homepage reads \"Autonomy &amp; Safety\" instead of \"&\"."),
+         why=("If you'd ever give a student Caladan access, I'd love to build something with it."),
+         build=None, notes="Was Tier A. API needs credentials from Polymath support, so no build. Could become Tier A if they grant Caladan access."),
 
     dict(slug="innate", name="Innate", tier="A", yc="F24", size=7, loc="San Francisco / Palo Alto",
          what="Personal AI robot (MARS, $995) you teach with code, language, and demonstrations. Open-source Innate OS plus a browser simulator.",
          contact="Vignesh Anand", role="Co-founder & CTO", first="Vignesh",
          email="vignesh@innate.bot", email_status="guess",
          website="https://innate.bot", proof="VEX",
-         subject="Made a MARS skill in your simulator",
-         value="BUILD: a skill in Innate OS run in sim.innate.bot. Bonus: site says \"Teach MARS a task with one example\" in one section and \"Teach with a few examples\" in another.",
-         opener=("I made a small skill for MARS in your simulator: [ONE LINE ON WHAT IT DOES]. Code and a clip are here: [BUILD LINK]. "
+         subject="Wrote an odometry-drift check skill for MARS",
+         value="BUILD (done): odometry-drift check skill for Innate OS. Bonus: site says \"Teach MARS a task with one example\" in one section and \"Teach with a few examples\" in another.",
+         opener=("I wrote a MARS skill that drives a square on wheel odometry, then checks against the lidar map how far the wheels drifted, "
+                 "so an owner knows when a new floor is throwing off navigation: "
+                 f"{B}innate-odom-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. "
                  "I built it with Claude's help, and the README explains how it works."),
-         why=("Your careers section says skill matters more than degrees, which is exactly why I'm writing. "
-              "One small thing: the MARS section says you can teach a task \"with one example\" while the OS section says \"a few examples.\""),
-         build="Innate OS skill in sim.innate.bot (github.com/innate-inc/innate-os)",
+         why=("Your careers section says skill matters more than degrees, which is exactly why I'm writing."),
+         build="DONE: builds/innate-odom-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)",
          notes="Careers page says degrees don't matter. Strong fit."),
 
     dict(slug="almond", name="Almond", tier="A", yc="Sp25", size=6, loc="San Francisco",
@@ -64,13 +65,13 @@ COMPANIES = [
          contact="Saba Khalilnaji", role="Co-founder & CEO", first="Saba",
          email="saba@almond.bot", email_status="guess (public: hello@almond.bot)",
          website="https://almond.bot", proof="VEX",
-         subject="Something small I built with the Axol SDK",
-         value="BUILD: small tool/example on the open-source Axol SDK (github.com/almond-bot/axol). Bonus: FAQ says two arms give \"double the cycle time\" of one arm, which reads like the opposite of what's meant (half the cycle time).",
-         opener=("I went through the open-source Axol SDK and built [ONE LINE ON WHAT IT DOES]: [BUILD LINK]. "
-                 "I built it with Claude's help, and the README explains how it works."),
-         why=("Tuning PID loops and motion on our VEX robot is my favorite part of robotics, so a dual-arm platform with an open SDK is right up my alley. "
-              "Small copy note: the site says two arms give \"double the cycle time\" of a single arm, which I think is meant to be half."),
-         build="Example/tool on the Axol Python SDK (no hardware needed), e.g. IK reachability visualizer",
+         subject="Mapped Axol's two-arm workspace from your URDF",
+         value="BUILD (done): two-arm workspace map from the Axol URDF. Bonus: FAQ says two arms give \"double the cycle time\" of one arm, which reads like the opposite of what's meant (half the cycle time).",
+         opener=("I used the URDF from your open-source SDK to map where Axol's two arms can both reach, and at which table heights: "
+                 f"{B}almond-axol-workspace. One thing I'd love to check with you: I get 781 mm of reach to the gripper mount vs 860 mm on "
+                 "the spec sheet, which I'm guessing is the fingers. I built it with Claude's help, and the README explains how it works."),
+         why=("Tuning motion on our VEX robot is my favorite part of robotics, so a dual-arm platform with an open SDK is right up my alley."),
+         build="DONE: builds/almond-axol-workspace (bimanual reachability map from the SDK's URDF)",
          notes="Hiring Founding Robotics SWE. Ships from SF."),
 
     dict(slug="morphoai", name="MorphoAI", tier="A", yc="Sp25", size=7, loc="New York / London",
@@ -79,11 +80,11 @@ COMPANIES = [
          email="andrew@morpho.ai", email_status="guess (public: hello@morpho.ai)",
          website="https://morpho.ai", proof="VEX",
          subject="Drafted a homepage for morpho.ai",
-         value="BUILD: morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.",
-         opener=("I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch: [BUILD LINK]. "
-                 "I made it with Claude's help, and it's yours to use or toss."),
+         value="BUILD (done): morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.",
+         opener=("I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch post: "
+                 f"{B}morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss."),
          why=("Designing and iterating on robot mechanisms every season is a big part of VEX, so a tool that generates and checks designs is something I'd genuinely use."),
-         build="Single-page landing page draft (HTML) from public YC launch copy",
+         build="DONE: builds/morphoai-homepage-draft (one-page HTML, labeled unofficial)",
          notes="Hiring is London-based. Site is a near-empty Squarespace page."),
 
     dict(slug="os3", name="OS3", tier="B", yc="S26", size=2, loc="San Francisco",
@@ -213,11 +214,11 @@ COMPANIES = [
          email="rupesh@reviserobotics.com", email_status="guess",
          website="https://www.reviserobotics.com", proof="VEX",
          subject="Built a laptop health-check script for refurbishing",
-         value="BUILD: a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.",
+         value="BUILD (done): a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.",
          opener=("I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU "
-                 "into a one-page resale grade: [BUILD LINK]. I built it with Claude's help, and the README explains how it works."),
+                 f"into a one-page resale grade: {B}revise-laptop-grader. I built it with Claude's help, and the README explains how it works."),
          why=("I also saw the Engineering Intern posting. Automated testing and making robots reliable are exactly what I like working on."),
-         build="Python laptop health report (battery wear, SMART disk status, RAM, CPU) with a resale grade",
+         build="DONE: builds/revise-laptop-grader (Windows/macOS/Linux, tested grading rules)",
          notes="Has an Engineering Intern posting. Site didn't render for research; verify it loads."),
 
     dict(slug="aktoria-robotics", name="Aktoria Robotics", tier="B", yc="S26", size=2, loc="San Francisco",

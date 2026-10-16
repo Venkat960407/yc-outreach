@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MorphoAI homepage draft (unofficial)</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #EEF0EC;
+    --ink: #22262A;
+    --steel: #3F5A73;
+    --faint: #C9CFCB;
+    --pick: #E8B931;
+    --muted: #5C6670;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Archivo", system-ui, sans-serif; font-size: 18px; line-height: 1.55;
+    font-variation-settings: "wdth" 100;
+  }
+  a { color: var(--steel); }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--pick); outline-offset: 3px; }
+  .draft {
+    background: var(--ink); color: var(--paper); font-size: 14px; padding: 8px 16px; text-align: center;
+  }
+  .draft a { color: var(--pick); }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+  header.top { display: flex; justify-content: space-between; align-items: center; padding: 22px 0; }
+  .logo { font-weight: 800; font-size: 22px; font-variation-settings: "wdth" 115; letter-spacing: -0.01em; }
+  .btn {
+    display: inline-block; background: var(--ink); color: var(--paper); text-decoration: none;
+    padding: 12px 20px; border-radius: 2px; font-weight: 600; font-size: 16px;
+  }
+  .btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--ink); }
+
+  /* Hero: the candidate field is the one bold element on the page. */
+  .hero { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; align-items: center; padding: 48px 0 72px; }
+  h1 {
+    font-size: clamp(40px, 6vw, 72px); line-height: 1.0; margin: 0 0 22px;
+    font-weight: 800; font-variation-settings: "wdth" 78; letter-spacing: -0.01em;
+  }
+  .lede { font-size: 20px; color: var(--muted); max-width: 30em; margin: 0 0 30px; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; }
+  .field { position: relative; }
+  .field svg { width: 100%; height: auto; display: block; }
+  .field figcaption { font-size: 14px; color: var(--muted); margin-top: 10px; }
+
+  section { padding: 72px 0; border-top: 1.5px solid var(--faint); }
+  h2 { font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; margin: 0 0 36px; font-weight: 750;
+       font-variation-settings: "wdth" 85; max-width: 22em; }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; counter-reset: step; }
+  .steps li { list-style: none; counter-increment: step; }
+  .steps li::before { content: counter(step); display: block; font-size: 56px; font-weight: 800;
+                      font-variation-settings: "wdth" 75; color: var(--steel); line-height: 1; margin-bottom: 12px; }
+  .steps h3, .uses h3 { margin: 0 0 8px; font-size: 21px; }
+  .steps p, .uses p { margin: 0; color: var(--muted); }
+  ol.steps { padding: 0; margin: 0; }
+
+  .outputs { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+  .outputs dl { margin: 0; }
+  .outputs dt { font-weight: 700; font-size: 20px; margin-top: 22px; }
+  .outputs dt:first-child { margin-top: 0; }
+  .outputs dd { margin: 4px 0 0; color: var(--muted); }
+  .compare { font-size: 17px; border-collapse: collapse; width: 100%; }
+  .compare th, .compare td { text-align: left; padding: 12px 8px; border-bottom: 1.5px solid var(--faint); vertical-align: top; }
+  .compare th { font-weight: 700; }
+  .compare td:last-child { color: var(--ink); font-weight: 600; }
+
+  .uses { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+
+  .team { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 28px 40px; }
+  .team div { border-left: 3px solid var(--steel); padding-left: 14px; }
+  .team b { display: block; font-size: 19px; }
+  .team span { color: var(--muted); font-size: 16px; }
+  .backed { margin-top: 44px; font-size: 18px; }
+
+  .closing { background: var(--ink); color: var(--paper); border-top: 0; }
+  .closing h2 { color: var(--paper); }
+  .closing p { color: #B9C1C7; max-width: 34em; margin: 0 0 28px; }
+  .closing .btn { background: var(--pick); color: var(--ink); }
+  footer { padding: 28px 0 40px; font-size: 14px; color: var(--muted); }
+
+  @media (max-width: 860px) {
+    .hero, .outputs { grid-template-columns: 1fr; gap: 36px; }
+    .steps, .uses { grid-template-columns: 1fr; gap: 32px; }
+    section { padding: 56px 0; }
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 0 16px; }
+    body { font-size: 17px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .cand { opacity: 0; animation: in .35s ease-out forwards; }
+    .cand.picked { animation-delay: 1.4s !important; }
+    @keyframes in { to { opacity: 1; } }
+  }
+</style>
+</head>
+<body>
+
+<div class="draft">Unofficial homepage draft by Venkat Narayanan, written from MorphoAI's public YC launch post. Not affiliated with MorphoAI.</div>
+
+<div class="wrap">
+  <header class="top">
+    <div class="logo">MorphoAI</div>
+    <a class="btn ghost" href="mailto:hello@morpho.ai">Contact us</a>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h1>Describe the task. Get a machine that does it.</h1>
+      <p class="lede">MorphoAI turns your parts list and task requirements into verified, manufacturable robot and machine designs. Hundreds of candidates in minutes, instead of 40 to 100 rounds of CAD and prototypes.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:hello@morpho.ai?subject=Design%20project">Start a design project</a>
+        <a class="btn ghost" href="#how">See how it works</a>
+      </div>
+    </div>
+    <figure class="field" style="margin:0">
+      <svg id="cands" viewBox="0 0 600 440" role="img"
+           aria-label="A grid of 48 generated arm designs, one highlighted as the chosen candidate"></svg>
+      <figcaption>Each sketch is a different arm layout aimed at the same target. One gets picked and refined.</figcaption>
+    </figure>
+  </div>
+</div>
+
+<section id="how">
+  <div class="wrap">
+    <h2>From requirements to a design you can build</h2>
+    <ol class="steps">
+      <li><h3>Generate</h3><p>Give it your parts and what the machine has to do. It produces hundreds of design candidates that already pass basic checks, and you choose which ones to pursue.</p></li>
+      <li><h3>Simulate</h3><p>Each design runs through a full physics simulation with a controller tuned for it, so you see how it actually moves before you machine anything.</p></li>
+      <li><h3>Optimize</h3><p>Refine the winner for cost, weight, performance, and how easy it is to manufacture, with every trade-off visible.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap outputs">
+    <div>
+      <h2>What you walk away with</h2>
+      <dl>
+        <dt>A ready-to-manufacture design</dt><dd>Geometry checked against your parts and constraints.</dd>
+        <dt>Programmed motions</dt><dd>Controllers and trajectories that were verified in simulation.</dd>
+        <dt>A bill of materials</dt><dd>Every part, so purchasing can start the same day.</dd>
+      </dl>
+    </div>
+    <table class="compare">
+      <thead><tr><th></th><th>Typical process</th><th>With MorphoAI</th></tr></thead>
+      <tbody>
+        <tr><td>Design iterations</td><td>40 to 100</td><td>Hundreds of candidates, generated at once</td></tr>
+        <tr><td>First concepts</td><td>Weeks of manual CAD</td><td>Minutes</td></tr>
+        <tr><td>Testing</td><td>Build, test, rebuild</td><td>Simulated before hardware</td></tr>
+        <tr><td>R&amp;D cycle</td><td>Baseline</td><td>Cut by 50% or more</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Teams use it to</h2>
+    <div class="uses">
+      <div><h3>Extend reach and payload</h3><p>Resize robot links and swap motors to hit a new reach or payload spec without starting over.</p></div>
+      <div><h3>Rework a work cell</h3><p>Redesign a cell around cheaper parts and get it running sooner, with better margins.</p></div>
+      <div><h3>Build end-of-arm tooling</h3><p>Generate grippers and fixtures from the parts you have, in hours instead of weeks.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Built by people who've spent careers on robot design</h2>
+    <div class="team">
+      <div><b>Ayna Arora</b><span>CEO. Two-time manufacturing tech founder, former VC, Harvard MBA.</span></div>
+      <div><b>Andrew Spielberg, PhD</b><span>CTO. MIT CSAIL and Harvard postdoc in digital manufacturing. 30+ papers on robot design optimization.</span></div>
+      <div><b>Allan Zhao</b><span>MIT PhD in generative AI for robot design.</span></div>
+      <div><b>Amira Abdel-Rahman</b><span>Harvard and MIT PhD in hardware design.</span></div>
+      <div><b>Han Wang</b><span>Simulation, in research and industry.</span></div>
+    </div>
+    <p class="backed">Backed by Y Combinator and a £2.5M grant from ARIA, the UK's Advanced Research and Invention Agency.</p>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap">
+    <h2>Building a new robot or machine?</h2>
+    <p>Tell us what it needs to do and what parts you want to use. We'll show you what MorphoAI can generate for it.</p>
+    <a class="btn" href="mailto:hello@morpho.ai?subject=Design%20project">Email hello@morpho.ai</a>
+  </div>
+</section>
+
+<div class="wrap"><footer>MorphoAI, Inc.</footer></div>
+
+<script>
+// Draw a field of 2- and 3-link arm candidates reaching toward the same target.
+// Deterministic so the page looks the same on every load.
+(function () {
+  const svg = document.getElementById("cands");
+  const NS = "http://www.w3.org/2000/svg";
+  let seed = 7;
+  const rand = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const cols = 8, rows = 6, w = 600 / cols, h = 440 / rows, pick = 27;
+  for (let i = 0; i < cols * rows; i++) {
+    const cx = (i % cols) * w, cy = Math.floor(i / cols) * h;
+    const g = document.createElementNS(NS, "g");
+    g.setAttribute("class", "cand" + (i === pick ? " picked" : ""));
+    g.style.animationDelay = (i * 0.02) + "s";
+    const chosen = i === pick;
+    if (chosen) {
+      const r = document.createElementNS(NS, "rect");
+      Object.entries({ x: cx + 3, y: cy + 3, width: w - 6, height: h - 6, fill: "#E8B931", rx: 2 })
+        .forEach(([k, v]) => r.setAttribute(k, v));
+      g.appendChild(r);
+    }
+    // base and target
+    const bx = cx + w * 0.25, by = cy + h * 0.82, tx = cx + w * 0.78, ty = cy + h * 0.28;
+    const n = rand() < 0.5 ? 2 : 3;
+    const lens = Array.from({ length: n }, () => 0.6 + rand());
+    const total = lens.reduce((a, b) => a + b, 0);
+    const reach = Math.hypot(tx - bx, ty - by) * (1.0 + rand() * 0.25);
+    let x = bx, y = by, ang = -Math.PI / 2 + (rand() - 0.3) * 1.2;
+    const pts = [[x, y]];
+    lens.forEach((L, k) => {
+      const seg = (L / total) * reach;
+      if (k > 0) ang += (rand() - 0.2) * 1.6;
+      x += seg * Math.cos(ang); y += seg * Math.sin(ang);
+      pts.push([x, y]);
+    });
+    const line = document.createElementNS(NS, "polyline");
+    line.setAttribute("points", pts.map(p => p.map(v => v.toFixed(1)).join(",")).join(" "));
+    line.setAttribute("fill", "none");
+    line.setAttribute("stroke", chosen ? "#22262A" : "#3F5A73");
+    line.setAttribute("stroke-width", chosen ? 3 : 2);
+    line.setAttribute("stroke-linecap", "round");
+    line.setAttribute("stroke-linejoin", "round");
+    g.appendChild(line);
+    pts.forEach(([px, py], k) => {
+      const c = document.createElementNS(NS, "circle");
+      c.setAttribute("cx", px.toFixed(1)); c.setAttribute("cy", py.toFixed(1));
+      c.setAttribute("r", k === 0 ? 3.5 : 2.4);
+      c.setAttribute("fill", chosen ? "#22262A" : (k === 0 ? "#22262A" : "#EEF0EC"));
+      c.setAttribute("stroke", chosen ? "#22262A" : "#3F5A73");
+      c.setAttribute("stroke-width", 1.5);
+      g.appendChild(c);
+    });
+    const t = document.createElementNS(NS, "path");
+    t.setAttribute("d", `M${tx - 4} ${ty} h8 M${tx} ${ty - 4} v8`);
+    t.setAttribute("stroke", chosen ? "#22262A" : "#9AA5AE");
+    t.setAttribute("stroke-width", 1.5);
+    g.appendChild(t);
+    svg.appendChild(g);
+  }
+})();
+</script>
+</body>
+</html>

@@ -13,13 +13,13 @@
 
 **What they do:** Robots that test, wipe, photograph, and list used laptops for resale. Posting Engineering Intern (Summer/Fall 2026).
 
-**Value item:** BUILD: a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.
+**Value item:** BUILD (done): a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.
 
-**Build:** Python laptop health report (battery wear, SMART disk status, RAM, CPU) with a resale grade
+**Build:** DONE: builds/revise-laptop-grader (Windows/macOS/Linux, tested grading rules)
 
 **Notes:** Has an Engineering Intern posting. Site didn't render for research; verify it loads.
 
-> Before sending: Fill in [BUILD LINK] and [ONE LINE ON WHAT IT DOES] once the build is done and you've read it.
+> Before sending: Read the build's README so you can talk about it, and make sure the link works.
 
 ## Email
 
@@ -28,7 +28,7 @@
 ```
 Hi Rupesh,
 
-I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade: [BUILD LINK]. I built it with Claude's help, and the README explains how it works.
+I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade: https://github.com/Venkat960407/robotics-builds/tree/main/revise-laptop-grader. I built it with Claude's help, and the README explains how it works.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. I also saw the Engineering Intern posting. Automated testing and making robots reliable are exactly what I like working on.
 

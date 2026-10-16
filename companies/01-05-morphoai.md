@@ -13,13 +13,13 @@
 
 **What they do:** AI tool that generates, checks, and refines manufacturable designs for robots and machines. Backed by a 2.5M GBP ARIA grant.
 
-**Value item:** BUILD: morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.
+**Value item:** BUILD (done): morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.
 
-**Build:** Single-page landing page draft (HTML) from public YC launch copy
+**Build:** DONE: builds/morphoai-homepage-draft (one-page HTML, labeled unofficial)
 
 **Notes:** Hiring is London-based. Site is a near-empty Squarespace page.
 
-> Before sending: Fill in [BUILD LINK] and [ONE LINE ON WHAT IT DOES] once the build is done and you've read it.
+> Before sending: Read the build's README so you can talk about it, and make sure the link works.
 
 ## Email
 
@@ -28,7 +28,7 @@
 ```
 Hi Andrew,
 
-I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch: [BUILD LINK]. I made it with Claude's help, and it's yours to use or toss.
+I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch post: https://github.com/Venkat960407/robotics-builds/tree/main/morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Designing and iterating on robot mechanisms every season is a big part of VEX, so a tool that generates and checks designs is something I'd genuinely use.
 
