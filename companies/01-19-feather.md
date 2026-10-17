@@ -30,7 +30,7 @@ Hi Aahan,
 
 Small thing: the description that shows up in Google and link previews for featherhq.com says "Feather is helps enterprises", which is an easy fix in the page's meta description.
 
-I'm Venkat, a high school programmer in Redmond. I recently built a real-time spatial audio engine in Python that makes any sound on my PC seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf I'm into audio and real-time processing, and natural-sounding voice is one of the hardest audio problems out there. Being in the Seattle area, I'd love to help locally.
+I'm Venkat, a high school programmer in Redmond. I recently built a real-time spatial audio engine in Python that makes any sound on my PC seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf. I'm into audio and real-time processing, and natural-sounding voice is one of the hardest audio problems out there. Being in the Seattle area, I'd love to help locally.
 
 I'm a sophomore, so I know this is unusual, but I'd love to help with something small, part-time now or this summer. Would you be open to a quick 15-minute call?
 

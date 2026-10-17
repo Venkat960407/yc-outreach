@@ -30,7 +30,7 @@ Hi Stephan,
 
 For a robot that's meant to feel social, turning toward whoever is talking matters a lot. I've been working on the reverse of that problem: making a sound seem to come from a specific direction.
 
-I'm Venkat, a high school programmer in Redmond. I recently built a real-time spatial audio engine in Python that makes any sound on my PC seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf I'd love to try building direction-of-arrival detection for one of your robots so it can face the person speaking.
+I'm Venkat, a high school programmer in Redmond. I recently built a real-time spatial audio engine in Python that makes any sound on my PC seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf. I'd love to try building direction-of-arrival detection for one of your robots so it can face the person speaking.
 
 I'm a sophomore, so I know this is unusual, but I'd love to help with something small, part-time now or this summer. Would you be open to a quick 15-minute call?
 

@@ -8,10 +8,10 @@ Emails marked "guess" follow the common first@domain pattern and are NOT verifie
 VEX = ("I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), "
        "and we're ranked 12th in the world in Robot Skills.")
 AUDIO = ("I recently built a real-time spatial audio engine in Python that makes any sound on my PC "
-         "seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf")
+         "seem to come from a point in 3D space, with webcam head tracking: github.com/Venkat960407/spatial-audio-hrtf.")
 STOCK = ("I built a stock research tool where a verifier checks every number an LLM writes against real "
          "market data. In testing it caught 18 of 18 injected errors with zero false positives: "
-         "github.com/Venkat960407/stock-research-assistant")
+         "github.com/Venkat960407/stock-research-assistant.")
 
 B = "https://github.com/Venkat960407/robotics-builds/tree/main/"
 

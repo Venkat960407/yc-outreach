@@ -30,7 +30,7 @@ Hi Nikhil,
 
 Small thing I noticed: the "API" link in your site footer goes to the weather product page instead of API docs, which might lose a developer who's ready to try it.
 
-I'm Venkat, a high school programmer in Redmond. I built a stock research tool where a verifier checks every number an LLM writes against real market data. In testing it caught 18 of 18 injected errors with zero false positives: github.com/Venkat960407/stock-research-assistant I'm interested in forecasting and in making sure model outputs can be trusted, which is what my last project was about. Being in the Seattle area, I'd love to help locally.
+I'm Venkat, a high school programmer in Redmond. I built a stock research tool where a verifier checks every number an LLM writes against real market data. In testing it caught 18 of 18 injected errors with zero false positives: github.com/Venkat960407/stock-research-assistant. I'm interested in forecasting and in making sure model outputs can be trusted, which is what my last project was about. Being in the Seattle area, I'd love to help locally.
 
 I'm a sophomore, so I know this is unusual, but I'd love to help with something small, part-time now or this summer. Would you be open to a quick 15-minute call?
 
