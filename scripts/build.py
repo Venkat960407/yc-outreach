@@ -11,7 +11,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.utils import get_column_letter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SIG = "Thanks,\nVenkat Narayanan\ngithub.com/Venkat960407"
+SIG = "Thanks,\nVenkat Narayanan"
 ASK = ("I'm a sophomore, so I know this is unusual, but I'd love to help with something small, "
        "part-time now or this summer. Would you be open to a quick 15-minute call?")
 

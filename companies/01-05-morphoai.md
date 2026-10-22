@@ -36,7 +36,6 @@ I'm a sophomore, so I know this is unusual, but I'd love to help with something 
 
 Thanks,
 Venkat Narayanan
-github.com/Venkat960407
 ```
 
 ## Follow-up (send 5 to 7 days later, same thread)
