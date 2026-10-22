@@ -267,3 +267,9 @@ COMPANIES = [
          why=("I'm interested in forecasting and in making sure model outputs can be trusted, which is what my last project was about. Being in the Seattle area, I'd love to help locally."),
          build=None, notes="ML research role is senior. Lower priority."),
 ]
+
+
+RECIPIENTS = {'almond': (['saba@almond.bot'], ['hello@almond.bot']), 'morphoai': (['andrew@morpho.ai'], ['hello@morpho.ai']), 'yondu': (['michael@yonduai.com'], ['hello@yonduai.com']), 'orangewood-labs': (['abhinav@orangewood.co'], ['hellorobot@orangewood.co']), 'darwin': (['sergio@darwinrobotics.ai'], ['ask@darwinrobotics.ai', 'sergio@thesislabs.ai']), 'os3': (['hi@os3robotics.com'], ['rishabh@os3robotics.com']), 'ultra': (['founders@ultra.tech'], ['oliver@ultra.tech'])}
+for _c in COMPANIES:
+    if _c['slug'] in RECIPIENTS:
+        _c['to'], _c['bcc'] = RECIPIENTS[_c['slug']]

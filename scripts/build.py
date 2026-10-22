@@ -90,12 +90,19 @@ def write_company_files(cos):
 
 COLS = ["#", "Batch", "Company", "Tier", "Contact", "Role", "Email", "Email status", "What they do",
         "Value item", "Build", "Proof used", "Subject", "Status", "Date sent", "Follow-up due",
-        "Follow-up sent", "Response", "Notes", "Draft file", "Website", "YC page"]
+        "Follow-up sent", "Response", "Notes", "Draft file", "Website", "YC page",
+        "Draft To", "Draft BCC", "Domain", "Email confidence", "Email source", "Email checked",
+        "Email candidates"]
 KEEP = ["Status", "Date sent", "Follow-up sent", "Response", "Notes"]
+# Owned by the email finder (finder.py / tracker_io.py). Carried over untouched once it has run.
+FINDER = ["Email", "Email status", "Domain", "Email confidence", "Email source", "Email checked",
+          "Email candidates"]
 WIDTH = {"#": 4, "Batch": 6, "Company": 18, "Tier": 5, "Contact": 18, "Role": 18, "Email": 28,
          "Email status": 18, "What they do": 45, "Value item": 55, "Build": 30, "Proof used": 9,
          "Subject": 32, "Status": 16, "Date sent": 11, "Follow-up due": 12, "Follow-up sent": 12,
-         "Response": 25, "Notes": 40, "Draft file": 30, "Website": 26, "YC page": 30}
+         "Response": 25, "Notes": 40, "Draft file": 30, "Website": 26, "YC page": 30,
+         "Draft To": 28, "Draft BCC": 30, "Domain": 18, "Email confidence": 10, "Email source": 50,
+         "Email checked": 15, "Email candidates": 50}
 STATUSES = ["Waiting on build", "Ready to review", "Verified", "Sent", "Followed up", "Replied",
             "Call scheduled", "No reply", "Skip"]
 
@@ -108,7 +115,7 @@ def build_tracker(cos, path):
         for row in ws0.iter_rows(min_row=2, values_only=True):
             r = dict(zip(hdr, row))
             if r.get("Company"):
-                prev[r["Company"]] = {k: r.get(k) for k in KEEP}
+                prev[r["Company"]] = {k: r.get(k) for k in KEEP + FINDER}
 
     wb = Workbook(); ws = wb.active; ws.title = "Tracker"
     f = Font(name="Arial", size=10); fb = Font(name="Arial", size=10, bold=True, color="FFFFFF")
@@ -134,7 +141,10 @@ def build_tracker(cos, path):
                 "Follow-up sent": old.get("Follow-up sent"), "Response": old.get("Response"),
                 "Notes": old.get("Notes") if old.get("Notes") is not None else c["notes"],
                 "Draft file": c["file"], "Website": c["website"],
-                "YC page": f"https://www.ycombinator.com/companies/{c['slug']}"}
+                "YC page": f"https://www.ycombinator.com/companies/{c['slug']}",
+                "Draft To": ", ".join(c.get("to") or [c["email"]]), "Draft BCC": ", ".join(c.get("bcc") or [])}
+        if old.get("Email checked"):  # the finder has run on this row: its columns win
+            vals.update({k: old.get(k) for k in FINDER})
         for h, v in vals.items():
             cell = ws.cell(row=i, column=ci[h], value=v)
             cell.font = f; cell.alignment = Alignment(vertical="top", wrap_text=True)
@@ -177,6 +187,7 @@ def build_tracker(cos, path):
     lg = wb.create_sheet("How to use")
     notes = [
         "Yellow columns on Tracker are yours to edit: Status, Date sent, Follow-up sent, Response, Notes.",
+        "Email, Email status and the columns after Draft BCC belong to the email finder (finder.py). Draft To / Draft BCC are who the Gmail draft is actually addressed to.",
         "Claude regenerates everything else each batch and keeps what you typed in the yellow columns.",
         "Follow-up due fills in 6 days after Date sent, and says 'done' once Follow-up sent has a date.",
         "Emails marked 'guess' in Email status are unverified. Check with Hunter.io or Apollo before sending.",
