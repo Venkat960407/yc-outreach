@@ -15,7 +15,7 @@
 
 **Value item:** BUILD (done): odometry-drift check skill for Innate OS. Bonus: site says "Teach MARS a task with one example" in one section and "Teach with a few examples" in another.
 
-**Build:** DONE: builds/innate-odom-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)
+**Build:** DONE: github.com/Venkat960407/mars-odometry-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)
 
 **Notes:** Careers page says degrees don't matter. Strong fit.
 
@@ -28,7 +28,7 @@
 ```
 Hi Vignesh,
 
-I wrote a MARS skill that drives a square on wheel odometry, then checks against the lidar map how far the wheels drifted, so an owner knows when a new floor is throwing off navigation: https://github.com/Venkat960407/robotics-builds/tree/main/innate-odom-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. I built it with Claude's help, and the README explains how it works.
+I wrote a MARS skill that drives a square on wheel odometry, then checks against the lidar map how far the wheels drifted, so an owner knows when a new floor is throwing off navigation: https://github.com/Venkat960407/mars-odometry-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. I built it with Claude's help, and the README explains how it works.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Your careers section says skill matters more than degrees, which is exactly why I'm writing.
 

@@ -15,7 +15,7 @@
 
 **Value item:** BUILD (done): morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.
 
-**Build:** DONE: builds/morphoai-homepage-draft (one-page HTML, labeled unofficial)
+**Build:** DONE: github.com/Venkat960407/morphoai-homepage-draft (one-page HTML, labeled unofficial)
 
 **Notes:** Hiring is London-based. Site is a near-empty Squarespace page.
 
@@ -28,7 +28,7 @@
 ```
 Hi Andrew,
 
-I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch post: https://github.com/Venkat960407/robotics-builds/tree/main/morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss.
+I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch post: https://github.com/Venkat960407/morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Designing and iterating on robot mechanisms every season is a big part of VEX, so a tool that generates and checks designs is something I'd genuinely use.
 

@@ -26,3 +26,7 @@ Cold outreach to small YC startups, mostly robotics and hardware, plus a few Sea
 ## Pace
 
 About 20 emails a day on weekdays from Gmail. Follow up once, 5 to 7 days later, in the same thread.
+
+## Already contacted before this project
+
+Revise Robotics, Lightberry, OS3, and Ultra got a first email on Aug 15, 2026 ("Not your average intern candidate"). Their batch 1 drafts are replies in those threads, not new cold emails. The draft text in Gmail is shorter than the files in `companies/` for these four, since it skips the intro.

@@ -15,7 +15,7 @@
 
 **Value item:** BUILD (done): two-arm workspace map from the Axol URDF. Bonus: FAQ says two arms give "double the cycle time" of one arm, which reads like the opposite of what's meant (half the cycle time).
 
-**Build:** DONE: builds/almond-axol-workspace (bimanual reachability map from the SDK's URDF)
+**Build:** DONE: github.com/Venkat960407/axol-workspace-map (bimanual reachability map from the SDK's URDF)
 
 **Notes:** Hiring Founding Robotics SWE. Ships from SF.
 
@@ -28,7 +28,7 @@
 ```
 Hi Saba,
 
-I used the URDF from your open-source SDK to map where Axol's two arms can both reach, and at which table heights: https://github.com/Venkat960407/robotics-builds/tree/main/almond-axol-workspace. One thing I'd love to check with you: I get 781 mm of reach to the gripper mount vs 860 mm on the spec sheet, which I'm guessing is the fingers. I built it with Claude's help, and the README explains how it works.
+I used the URDF from your open-source SDK to map where Axol's two arms can both reach, and at which table heights: https://github.com/Venkat960407/axol-workspace-map. One thing I'd love to check with you: I get 781 mm of reach to the gripper mount vs 860 mm on the spec sheet, which I'm guessing is the fingers. I built it with Claude's help, and the README explains how it works.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. Tuning motion on our VEX robot is my favorite part of robotics, so a dual-arm platform with an open SDK is right up my alley.
 

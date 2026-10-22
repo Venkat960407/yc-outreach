@@ -9,7 +9,7 @@
 | Website | https://ultra.tech |
 | YC page | https://www.ycombinator.com/companies/ultra |
 | Contact | Oliver Ortlieb, Co-founder & CTO |
-| Email | oliver@ultra.tech (guess) |
+| Email | founders@ultra.tech (emailed Aug 15, no bounce (draft is a reply in that thread)) |
 
 **What they do:** OP1 stationary robots that pack and sort orders in warehouses. Raised $62M on Oct 9, 2026 and partnered with Physical Intelligence.
 

@@ -13,7 +13,6 @@ STOCK = ("I built a stock research tool where a verifier checks every number an 
          "market data. In testing it caught 18 of 18 injected errors with zero false positives: "
          "github.com/Venkat960407/stock-research-assistant.")
 
-B = "https://github.com/Venkat960407/robotics-builds/tree/main/"
 
 PROOF = {"VEX": VEX, "AUDIO": AUDIO, "STOCK": STOCK}
 
@@ -54,10 +53,10 @@ COMPANIES = [
          value="BUILD (done): odometry-drift check skill for Innate OS. Bonus: site says \"Teach MARS a task with one example\" in one section and \"Teach with a few examples\" in another.",
          opener=("I wrote a MARS skill that drives a square on wheel odometry, then checks against the lidar map how far the wheels drifted, "
                  "so an owner knows when a new floor is throwing off navigation: "
-                 f"{B}innate-odom-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. "
+                 f"https://github.com/Venkat960407/mars-odometry-check. I tested it against a simulated robot with known wheel errors, but not on MARS yet. "
                  "I built it with Claude's help, and the README explains how it works."),
          why=("Your careers section says skill matters more than degrees, which is exactly why I'm writing."),
-         build="DONE: builds/innate-odom-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)",
+         build="DONE: github.com/Venkat960407/mars-odometry-check (odometry vs lidar drift check skill, tested on a fake robot, not on MARS/sim yet)",
          notes="Careers page says degrees don't matter. Strong fit."),
 
     dict(slug="almond", name="Almond", tier="A", yc="Sp25", size=6, loc="San Francisco",
@@ -68,10 +67,10 @@ COMPANIES = [
          subject="Mapped Axol's two-arm workspace from your URDF",
          value="BUILD (done): two-arm workspace map from the Axol URDF. Bonus: FAQ says two arms give \"double the cycle time\" of one arm, which reads like the opposite of what's meant (half the cycle time).",
          opener=("I used the URDF from your open-source SDK to map where Axol's two arms can both reach, and at which table heights: "
-                 f"{B}almond-axol-workspace. One thing I'd love to check with you: I get 781 mm of reach to the gripper mount vs 860 mm on "
+                 f"https://github.com/Venkat960407/axol-workspace-map. One thing I'd love to check with you: I get 781 mm of reach to the gripper mount vs 860 mm on "
                  "the spec sheet, which I'm guessing is the fingers. I built it with Claude's help, and the README explains how it works."),
          why=("Tuning motion on our VEX robot is my favorite part of robotics, so a dual-arm platform with an open SDK is right up my alley."),
-         build="DONE: builds/almond-axol-workspace (bimanual reachability map from the SDK's URDF)",
+         build="DONE: github.com/Venkat960407/axol-workspace-map (bimanual reachability map from the SDK's URDF)",
          notes="Hiring Founding Robotics SWE. Ships from SF."),
 
     dict(slug="morphoai", name="MorphoAI", tier="A", yc="Sp25", size=7, loc="New York / London",
@@ -82,15 +81,15 @@ COMPANIES = [
          subject="Drafted a homepage for morpho.ai",
          value="BUILD (done): morpho.ai currently shows only the company name, no product description. Draft a one-page landing page from their YC launch description.",
          opener=("I noticed morpho.ai only shows the company name right now, so I drafted a one-page homepage from your YC launch post: "
-                 f"{B}morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss."),
+                 f"https://github.com/Venkat960407/morphoai-homepage-draft (there's a screenshot in the README). I made it with Claude's help, and it's yours to use or toss."),
          why=("Designing and iterating on robot mechanisms every season is a big part of VEX, so a tool that generates and checks designs is something I'd genuinely use."),
-         build="DONE: builds/morphoai-homepage-draft (one-page HTML, labeled unofficial)",
+         build="DONE: github.com/Venkat960407/morphoai-homepage-draft (one-page HTML, labeled unofficial)",
          notes="Hiring is London-based. Site is a near-empty Squarespace page."),
 
     dict(slug="os3", name="OS3", tier="B", yc="S26", size=2, loc="San Francisco",
          what="Low-cost semi-humanoid robots (HALE 1.0). Developer units $14,995. First deployments in hotels.",
          contact="Rishabh Chanana", role="Founder", first="Rishabh",
-         email="rishabh@os3robotics.com", email_status="guess",
+         email="hi@os3robotics.com", email_status="emailed Aug 15, no bounce (draft is a reply in that thread)",
          website="https://os3robotics.com", proof="VEX",
          subject="Spec sheet idea for HALE developer units",
          value="Developer units are $14,995 but the site lists no payload, reach, runtime, weight, or compute. Offer to draft a spec table. Also meta description says \"hospitality laundry\" while the page just says \"Hospitality\".",
@@ -115,7 +114,7 @@ COMPANIES = [
     dict(slug="lightberry", name="Lightberry", tier="B", yc="F25", size=3, loc="San Francisco",
          what="AI \"social brain\" for robots so they can listen, speak, and act. Runs on Unitree, Booster, Fourier humanoids. Robot named Lumi.",
          contact="Stephan Koenigstorfer", role="Co-founder & CTO", first="Stephan",
-         email="stephan@lightberry.com", email_status="guess",
+         email="founders@lightberry.com", email_status="emailed Aug 15, no bounce (draft is a reply in that thread)",
          website="https://lightberry.com", proof="AUDIO",
          subject="Spatial audio guy, interested in robots that listen",
          value="Idea: use sound direction-of-arrival so the robot turns toward whoever is speaking. Venkat's HRTF engine is the reverse of that problem. Site note: homepage has one line about Lumi and no specs or details.",
@@ -163,7 +162,7 @@ COMPANIES = [
     dict(slug="ultra", name="Ultra", tier="B", yc="S24", size=4, loc="New York",
          what="OP1 stationary robots that pack and sort orders in warehouses. Raised $62M on Oct 9, 2026 and partnered with Physical Intelligence.",
          contact="Oliver Ortlieb", role="Co-founder & CTO", first="Oliver",
-         email="oliver@ultra.tech", email_status="guess",
+         email="founders@ultra.tech", email_status="emailed Aug 15, no bounce (draft is a reply in that thread)",
          website="https://ultra.tech", proof="VEX",
          subject="Placeholder text showing on ultra.tech",
          value="The \"Introducing\" section shows leftover CMS text: \"No frames yet. Paste a manifest URL...\" (VERIFY).",
@@ -211,14 +210,14 @@ COMPANIES = [
     dict(slug="revise-robotics", name="Revise Robotics", tier="A", yc="W25", size=3, loc="New York",
          what="Robots that test, wipe, photograph, and list used laptops for resale. Posting Engineering Intern (Summer/Fall 2026).",
          contact="Rupesh Jeyaram", role="Founder & CEO", first="Rupesh",
-         email="rupesh@reviserobotics.com", email_status="guess",
+         email="rupesh@reviserobotics.com", email_status="emailed Aug 15, no bounce (draft is a reply in that thread)",
          website="https://www.reviserobotics.com", proof="VEX",
          subject="Built a laptop health-check script for refurbishing",
          value="BUILD (done): a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.",
          opener=("I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU "
-                 f"into a one-page resale grade: {B}revise-laptop-grader. I built it with Claude's help, and the README explains how it works."),
+                 f"into a one-page resale grade: https://github.com/Venkat960407/laptop-resale-grader. I built it with Claude's help, and the README explains how it works."),
          why=("I also saw the Engineering Intern posting. Automated testing and making robots reliable are exactly what I like working on."),
-         build="DONE: builds/revise-laptop-grader (Windows/macOS/Linux, tested grading rules)",
+         build="DONE: github.com/Venkat960407/laptop-resale-grader (Windows/macOS/Linux, tested grading rules)",
          notes="Has an Engineering Intern posting. Site didn't render for research; verify it loads."),
 
     dict(slug="aktoria-robotics", name="Aktoria Robotics", tier="B", yc="S26", size=2, loc="San Francisco",

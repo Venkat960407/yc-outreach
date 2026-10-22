@@ -9,13 +9,13 @@
 | Website | https://www.reviserobotics.com |
 | YC page | https://www.ycombinator.com/companies/revise-robotics |
 | Contact | Rupesh Jeyaram, Founder & CEO |
-| Email | rupesh@reviserobotics.com (guess) |
+| Email | rupesh@reviserobotics.com (emailed Aug 15, no bounce (draft is a reply in that thread)) |
 
 **What they do:** Robots that test, wipe, photograph, and list used laptops for resale. Posting Engineering Intern (Summer/Fall 2026).
 
 **Value item:** BUILD (done): a Python script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade report.
 
-**Build:** DONE: builds/revise-laptop-grader (Windows/macOS/Linux, tested grading rules)
+**Build:** DONE: github.com/Venkat960407/laptop-resale-grader (Windows/macOS/Linux, tested grading rules)
 
 **Notes:** Has an Engineering Intern posting. Site didn't render for research; verify it loads.
 
@@ -28,7 +28,7 @@
 ```
 Hi Rupesh,
 
-I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade: https://github.com/Venkat960407/robotics-builds/tree/main/revise-laptop-grader. I built it with Claude's help, and the README explains how it works.
+I saw you're automating laptop testing, so I built a small script that pulls a laptop's battery wear, disk health, RAM, and CPU into a one-page resale grade: https://github.com/Venkat960407/laptop-resale-grader. I built it with Claude's help, and the README explains how it works.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU fusion), and we're ranked 12th in the world in Robot Skills. I also saw the Engineering Intern posting. Automated testing and making robots reliable are exactly what I like working on.
 

@@ -9,7 +9,7 @@
 | Website | https://lightberry.com |
 | YC page | https://www.ycombinator.com/companies/lightberry |
 | Contact | Stephan Koenigstorfer, Co-founder & CTO |
-| Email | stephan@lightberry.com (guess) |
+| Email | founders@lightberry.com (emailed Aug 15, no bounce (draft is a reply in that thread)) |
 
 **What they do:** AI "social brain" for robots so they can listen, speak, and act. Runs on Unitree, Booster, Fourier humanoids. Robot named Lumi.
 
