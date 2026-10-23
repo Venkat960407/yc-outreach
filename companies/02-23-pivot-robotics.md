@@ -13,7 +13,7 @@
 
 **What they do:** Camera-driven robot finishing (grinding, cutting, sanding) and inspection for foundries and aerospace. 10+ robots at a cast-iron foundry.
 
-**Value item:** Homepage stats '100x Faster' and '<2 Year ROI' have no baseline or example; one sentence each would make them believable.
+**Value item:** '100x Faster' stat refers to adding a new part without programming (small caption), but the big number reads like grinding speed (verified).
 
 **Build:** None (observation only)
 
@@ -23,12 +23,12 @@
 
 ## Email
 
-**Subject:** The '100x faster' stat on pivotrobotics.com
+**Subject:** Your '100x Faster' stat might get misread
 
 ```
 Hi Siddharth,
 
-Reading pivotrobotics.com, the "100x Faster" and "<2 Year ROI" stats stood out, but neither says compared to what. One line each (100x faster than manual grinding? than programming a fixed toolpath?) would make them a lot more convincing to a foundry manager.
+On pivotrobotics.com, the big "100x Faster" stat is about adding a new part without programming, but at a glance it reads like grinding speed, and a skeptical foundry manager might discount it. Something like "100x faster to add a new part" would keep the claim and avoid the misread.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU and rotation sensors), and we're ranked 12th in the world in Robot Skills. Handling part-to-part variation without fixed toolpaths is the hard version of what I do with odometry and PID on a much smaller robot, and I'd love to see how you do it on real castings.
 

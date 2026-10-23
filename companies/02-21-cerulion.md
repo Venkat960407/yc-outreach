@@ -28,7 +28,7 @@
 ```
 Hi Lakshay,
 
-Following up on my note from August with something concrete I could do. Your homepage goes straight from the features to "Talk to us" and "Star on GitHub," with no install steps or quickstart, so a robotics student like me landing there can't try it in five minutes. I'd be happy to install Cerulion fresh, record a run from a simple robot sim, and write up the quickstart I wish I'd had, including every place I got stuck.
+Following up on my note from August with something concrete I could do. Your homepage goes straight from the features to "Talk to us" and "Star on GitHub," and the only way to setup instructions is the Docs link in the footer, so a robotics student landing there can't try it in five minutes. I'd be happy to install Cerulion fresh, record a run from a simple robot sim, and write up the quickstart I wish I'd had, including every place I got stuck.
 
 I write the autonomous code for my VEX team (C++, PID, odometry), so replaying a run to see why the robot drifted is a problem I deal with every week. Would that be useful?
 

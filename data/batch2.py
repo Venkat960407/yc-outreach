@@ -34,8 +34,9 @@ COMPANIES = [
          value="Homepage has no install steps or quickstart (CTAs are only 'Talk to us' and 'Star on GitHub'), and Flashback/Hindsight/Studio aren't defined. Offer: write a 5-minute quickstart from a fresh install.",
          opener="", why="", build=None,
          body=reply("Lakshay", "Following up on my note from August with something concrete I could do. Your homepage goes "
-                    "straight from the features to \"Talk to us\" and \"Star on GitHub,\" with no install steps or "
-                    "quickstart, so a robotics student like me landing there can't try it in five minutes. I'd be "
+                    "straight from the features to \"Talk to us\" and \"Star on GitHub,\" and the only way to setup "
+                    "instructions is the Docs link in the footer, so a robotics student landing there can't try it in "
+                    "five minutes. I'd be "
                     "happy to install Cerulion fresh, record a run from a simple robot sim, and write up the "
                     "quickstart I wish I'd had, including every place I got stuck.\n\nI write the autonomous code "
                     "for my VEX team (C++, PID, odometry), so replaying a run to see why the robot drifted is a "
@@ -62,11 +63,12 @@ COMPANIES = [
          contact="Siddharth Girdhar", role="Founder & CEO", first="Siddharth",
          email="siddharth@pivotrobotics.com", email_status="guess (public: sales@pivotrobotics.com)",
          website="https://pivotrobotics.com", proof="VEX",
-         subject="The '100x faster' stat on pivotrobotics.com",
-         value="Homepage stats '100x Faster' and '<2 Year ROI' have no baseline or example; one sentence each would make them believable.",
-         opener=("Reading pivotrobotics.com, the \"100x Faster\" and \"<2 Year ROI\" stats stood out, but neither "
-                 "says compared to what. One line each (100x faster than manual grinding? than programming a "
-                 "fixed toolpath?) would make them a lot more convincing to a foundry manager."),
+         subject="Your '100x Faster' stat might get misread",
+         value="'100x Faster' stat refers to adding a new part without programming (small caption), but the big number reads like grinding speed (verified).",
+         opener=("On pivotrobotics.com, the big \"100x Faster\" stat is about adding a new part without "
+                 "programming, but at a glance it reads like grinding speed, and a skeptical foundry manager "
+                 "might discount it. Something like \"100x faster to add a new part\" would keep the claim and "
+                 "avoid the misread."),
          why=("Handling part-to-part variation without fixed toolpaths is the hard version of what I do with "
               "odometry and PID on a much smaller robot, and I'd love to see how you do it on real castings."),
          build=None, notes="SWE roles need 1+ yr."),
@@ -90,11 +92,11 @@ COMPANIES = [
          contact="Rosalind Shinkle", role="Founder & CEO", first="Rosalind",
          email="rosalind@tuesdaylabs.com", email_status="guess",
          website="https://www.tuesdaylabs.com", proof="VEX",
-         subject="'Shop' vs 'Reserve' for Voxel",
-         value="Homepage has both 'Shop' and 'Reserve' with no price, availability date, or what reserving means.",
+         subject="How do I get a Voxel?",
+         value="Homepage has 'Shop' and 'How Do I Get a Robot?' (goes to reserve) but no price, deposit, or availability date (verified).",
          opener=("I was looking at Voxel on tuesdaylabs.com and couldn't tell whether I can buy one now or only "
-                 "reserve one, since the page has both \"Shop\" and \"Reserve\" but no price, date, or deposit "
-                 "info. A single line on that would help anyone who's excited to sign up."),
+                 "reserve one. There's a \"Shop\" link and a \"How Do I Get a Robot?\" link, but no price, date, "
+                 "or deposit on the page. A single line on that would help anyone who's excited to sign up."),
          why=("A robot that actually tidies a real home is the kind of messy, unstructured problem I want to "
               "work on after years of VEX fields where everything is in a known place."),
          build=None, notes="Only an open call in NYC."),
@@ -153,11 +155,11 @@ COMPANIES = [
          website="https://roboticscenter.ai", proof="", reply_to="1a006094bb5191a0",
          to=["jerry@deepawareai.com"], bcc=["contact@roboticscenter.ai"],
          subject="Re: Not your average intern candidate",
-         value="roboticscenter.ai gives three different platform counts (30+, 60+, 90+) and its headline promises 48-hour delivery while the YC page says 72. Robotics Engineer Intern posting.",
+         value="roboticscenter.ai body text gives three platform counts (30+ stats bar, 60+ how-it-works, 90+ store card; verified) and its headline promises 48-hour delivery while the YC page says 72. Robotics Engineer Intern posting.",
          opener="", why="", build=None,
          body=reply("Jerry", "Following up on my note from August; I saw you're hiring a Robotics Engineer Intern.\n\n"
                     "While looking through roboticscenter.ai I noticed the platform count changes depending on "
-                    "where you look (30+ in the stats, 60+ in how-it-works, 90+ in the page description), and the "
+                    "where you look (30+ in the stats bar, 60+ in how-it-works, 90+ on the store card), and the "
                     "headline promises 48-hour delivery while your YC page says 72. Small, but a buyer comparing "
                     "suppliers notices those.\n\nI write the autonomous code for my VEX team and I'd love to help "
                     "with setup guides, testing kits before they ship, or anything else small. Would you be open "
@@ -231,14 +233,15 @@ COMPANIES = [
          email="sebastian@dalus.io", email_status="emailed Aug 15, no bounce (reply in that thread)",
          website="https://dalus.io", proof="", reply_to="1a0060875c5b6cc3",
          subject="Re: Not your average intern candidate",
-         value="Free Pro plan for students. Offer: model the VEX robot in Dalus and send a write-up of where a student gets stuck. Pricing page 'Try for free' buttons lead to the demo form.",
+         value="Free Pro plan for students needs a .edu email (Venkat is in high school, so the email asks). Offer: model the VEX robot in Dalus and send a write-up of where a student gets stuck. Pricing page 'Try for free' buttons lead to the demo form.",
          opener="", why="", build=None,
-         body=reply("Sebastian", "Following up on my note from August with an offer. I saw Dalus has a free Pro "
-                    "plan for students, so I'd like to model our VEX competition robot in it (requirements, "
-                    "subsystems, and the tests we actually run before a tournament) and send you an honest "
-                    "write-up of where a first-time student user gets stuck.\n\nOne thing I already noticed: the "
-                    "\"Try for free\" buttons on the pricing page go to the demo form rather than a trial, which "
-                    "might lose some students who want to just start.\n\nWould that write-up be useful?"),
+         body=reply("Sebastian", "Following up on my note from August with an offer. I'd like to model our VEX "
+                    "competition robot in Dalus (requirements, subsystems, and the tests we actually run before a "
+                    "tournament) and send you an honest write-up of where a first-time student user gets stuck.\n\n"
+                    "The catch: the free student Pro plan asks for a .edu email, and I'm in high school. Would you "
+                    "be open to setting me up anyway? I also noticed the \"Try for free\" buttons on the pricing "
+                    "page go to the demo form rather than a trial, which might lose people who just want to start."
+                    "\n\nWould that write-up be useful?"),
          notes="Aug 15 thread. GTM Intern any level."),
 
     dict(slug="adam", name="Adam", tier="B", yc="W25", size=4, loc="San Francisco",
@@ -264,12 +267,14 @@ COMPANIES = [
          email="towaki@outerport.com", email_status="emailed Aug 15, no bounce (reply in that thread)",
          website="https://outerport.com", proof="", reply_to="1a00607e3895e502",
          subject="Re: Not your average intern candidate",
-         value="Homepage examples tag the same pump P-1, P-101 and MP-1, which a controls engineer would notice on a page selling tag tracing.",
+         value="No site issue used (checked: P-1/MP-1 is pump vs motor tag, P-101 is the sheet, so not an error). Hook: MTS Computer Vision / Graphics role open to any experience; Towaki's NVIDIA neural-fields background.",
          opener="", why="", build=None,
-         body=reply("Towaki", "Following up on my note from August with something I noticed. On outerport.com, the "
-                    "drainage-pit example labels the same pump P-1, P-101, and MP-1 in different places. On a page "
-                    "that sells tag tracing across drawings, a controls engineer might catch that.\n\nI'd love to "
-                    "help with anything small, part-time now or this summer. Would you be open to a quick call?"),
+         body=reply("Towaki", "Following up on my note from August. I saw the Member of Technical Staff role in "
+                    "computer vision and graphics is open to any experience level, and that's the area I'm most "
+                    "drawn to: 3D and geometric vision. Parsing scanned drawings into a graph of components and "
+                    "connections is a really interesting version of that problem.\n\nI'd love to help with "
+                    "anything small, like labeling or checking parsed drawings, part-time now or this summer. "
+                    "Would you be open to a quick call?"),
          notes="Aug 15 thread. MTS CV/Graphics open to any level."),
 
     dict(slug="simantic", name="Simantic", tier="B", yc="F26", size=4, loc="Waterloo, ON",
@@ -291,11 +296,11 @@ COMPANIES = [
          contact="Max Justicz", role="Co-founder & CTO", first="Max",
          email="max@chargerobotics.com", email_status="guess",
          website="https://chargerobotics.com", proof="VEX",
-         subject="Who drives the piles?",
-         value="Homepage responsibility list (Charge vs EPC) doesn't say who handles pile driving, which an EPC would ask first. Mechanical Engineer role open to new grads.",
-         opener=("I was reading the Charge vs. EPC responsibility split on chargerobotics.com and couldn't tell "
-                 "who handles pile driving. That seems like the first question an EPC would ask, so it might be "
-                 "worth one line."),
+         subject="The Charge vs. EPC columns on your homepage",
+         value="Homepage responsibility list has three unlabeled columns, so readers infer that pile driving stays with the EPC (verified). Mechanical Engineer role open to new grads.",
+         opener=("I was reading the Charge vs. EPC responsibility split on chargerobotics.com. The three columns "
+                 "aren't labeled, so I had to work out from the sentence above them that pile driving stays with "
+                 "the EPC. Column headers would make that obvious to an EPC skimming the page."),
          why=("Building a robot that works outdoors, in wind and heat, is the opposite of a VEX field, and "
               "that's what makes Charge interesting to me."),
          build=None, notes="Bigger team (25), full-time roles."),

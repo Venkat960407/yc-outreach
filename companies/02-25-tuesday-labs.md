@@ -13,7 +13,7 @@
 
 **What they do:** Voxel Series-1, a home robot that tidies. Founder ex-Boston Dynamics Spot manipulation.
 
-**Value item:** Homepage has both 'Shop' and 'Reserve' with no price, availability date, or what reserving means.
+**Value item:** Homepage has 'Shop' and 'How Do I Get a Robot?' (goes to reserve) but no price, deposit, or availability date (verified).
 
 **Build:** None (observation only)
 
@@ -23,12 +23,12 @@
 
 ## Email
 
-**Subject:** 'Shop' vs 'Reserve' for Voxel
+**Subject:** How do I get a Voxel?
 
 ```
 Hi Rosalind,
 
-I was looking at Voxel on tuesdaylabs.com and couldn't tell whether I can buy one now or only reserve one, since the page has both "Shop" and "Reserve" but no price, date, or deposit info. A single line on that would help anyone who's excited to sign up.
+I was looking at Voxel on tuesdaylabs.com and couldn't tell whether I can buy one now or only reserve one. There's a "Shop" link and a "How Do I Get a Robot?" link, but no price, date, or deposit on the page. A single line on that would help anyone who's excited to sign up.
 
 I'm Venkat, a high school programmer in Redmond. I write the autonomous code for my VEX robotics team (C++, PID, odometry, IMU and rotation sensors), and we're ranked 12th in the world in Robot Skills. A robot that actually tidies a real home is the kind of messy, unstructured problem I want to work on after years of VEX fields where everything is in a known place.
 
