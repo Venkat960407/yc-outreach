@@ -1,0 +1,20 @@
+{
+  "total length": {
+    "n": 60,
+    "mean_pct": 0.32,
+    "p95_pct": 0.79,
+    "max_pct": 1.09
+  },
+  "fork length": {
+    "n": 60,
+    "mean_pct": 1.21,
+    "p95_pct": 1.7,
+    "max_pct": 1.94
+  },
+  "body depth": {
+    "n": 60,
+    "mean_pct": 1.29,
+    "p95_pct": 1.89,
+    "max_pct": 2.0
+  }
+}

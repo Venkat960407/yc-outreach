@@ -1,0 +1,83 @@
+{
+ "Theseus": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Polymath Robotics": {
+  "status": "Replied",
+  "date_sent": "2026-10-22",
+  "response": "Oct 22, Ilia: Caladan is deprecated and they don't support non-company deployments. Suggested ROS 2 + Nav2 (docs.nav2.org) and The Construct. Polite no."
+ },
+ "Innate": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Almond": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "MorphoAI": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Darwin": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Bucket Robotics": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Saphira AI": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Yondu": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Proception": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Mbodi AI": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Orangewood Labs": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Aktoria Robotics": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Starcloud": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Feather": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Silurian": {
+  "status": "Sent",
+  "date_sent": "2026-10-22"
+ },
+ "Revise Robotics": {
+  "status": "Sent",
+  "date_sent": "2026-10-21"
+ },
+ "Lightberry": {
+  "status": "Sent",
+  "date_sent": "2026-10-21"
+ },
+ "OS3": {
+  "status": "Sent",
+  "date_sent": "2026-10-21"
+ },
+ "Ultra": {
+  "status": "Sent",
+  "date_sent": "2026-10-21"
+ }
+}

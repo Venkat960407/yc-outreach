@@ -25,12 +25,14 @@ def load_batches():
         spec = importlib.util.spec_from_file_location(f[:-3], os.path.join(ROOT, "data", f))
         mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
         for c in mod.COMPANIES:
-            c = dict(c); c["batch"] = int(m.group(1)); c["proof_text"] = mod.PROOF[c["proof"]]
+            c = dict(c); c["batch"] = int(m.group(1)); c["proof_text"] = mod.PROOF.get(c["proof"], "")
             out.append(c)
     return out
 
 
 def email_body(c):
+    if c.get("body"):  # follow-ups in an existing thread are written out in full
+        return c["body"]
     intro = "I'm Venkat, a high school programmer" + ("" if "Redmond" in c["opener"] else " in Redmond") + "."
     return (f"Hi {c['first']},\n\n{c['opener']}\n\n{intro} {c['proof_text']} {c['why']}\n\n{ASK}\n\n{SIG}")
 

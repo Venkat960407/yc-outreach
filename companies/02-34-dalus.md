@@ -1,0 +1,50 @@
+# Dalus
+
+| | |
+|---|---|
+| Tier | B |
+| YC batch | W25 |
+| Team size | 3 |
+| Location | San Francisco / Munich |
+| Website | https://dalus.io |
+| YC page | https://www.ycombinator.com/companies/dalus |
+| Contact | Sebastian Völkl, Founder & CEO |
+| Email | sebastian@dalus.io (emailed Aug 15, no bounce (reply in that thread)) |
+
+**What they do:** AI systems-engineering (SysML v2 MBSE) software: requirements, architecture, analysis, V&V, safety. Free Pro plan for students.
+
+**Value item:** Free Pro plan for students. Offer: model the VEX robot in Dalus and send a write-up of where a student gets stuck. Pricing page 'Try for free' buttons lead to the demo form.
+
+**Build:** None (observation only)
+
+**Notes:** Aug 15 thread. GTM Intern any level.
+
+> Before sending: Open the site and confirm this before sending.
+
+## Email
+
+**Subject:** Re: Not your average intern candidate
+
+```
+Hi Sebastian,
+
+Following up on my note from August with an offer. I saw Dalus has a free Pro plan for students, so I'd like to model our VEX competition robot in it (requirements, subsystems, and the tests we actually run before a tournament) and send you an honest write-up of where a first-time student user gets stuck.
+
+One thing I already noticed: the "Try for free" buttons on the pricing page go to the demo form rather than a trial, which might lose some students who want to just start.
+
+Would that write-up be useful?
+
+Thanks,
+Venkat
+```
+
+## Follow-up (send 5 to 7 days later, same thread)
+
+```
+Hi Sebastian,
+
+Just bumping this in case it got buried. Still happy to help with anything small if it's useful.
+
+Thanks,
+Venkat
+```
