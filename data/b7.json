@@ -1,0 +1,272 @@
+{
+ "Nori": {
+  "slug": "noril1",
+  "dom": "norirobotics.com",
+  "web": "http://norirobotics.com",
+  "batch": "Summer 2026",
+  "ts": 5,
+  "loc": "San Francisco, CA, USA",
+  "desc": "The most capable American-made humanoid robot for $1,688 || We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over $440k+ in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. "
+ },
+ "InLoop Robotics": {
+  "slug": "inloop-robotics",
+  "dom": "inloop-robotics.com",
+  "web": "https://inloop-robotics.com/",
+  "batch": "Spring 2026",
+  "ts": 10,
+  "loc": "BY, Germany",
+  "desc": "Robotic arms that pick and pack your orders. || We are building AI-native fulfillment powered by robotics.\r\nWarehouses without human labor that get better, faster, and cheaper with every order.\r\n\r\nMost robotics companies wait until their system is perfect before deploying. We don't. We ship imperfect policies into real warehouses, detect failures in real time, recover automatically when we can, and bring in a remote human operator when we can't.\r\n\r\nEvery failure becomes training data. Every intervention makes the system better. The result is a fulfillment system that continuously learns from production."
+ },
+ "BootLoop": {
+  "slug": "bootloop",
+  "dom": "bootloop.ai",
+  "web": "https://bootloop.ai/",
+  "batch": "Summer 2025",
+  "ts": 3,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Firmware in minutes, not months - rigorously tested on real hardware || BootLoop is building the first AI agent to write and test firmware on real hardware. Existing AI coding assistants fail completely with embedded systems, but our agent ingests datasheets, schematics, and other design files to write firmware in your style and automatically test it on your hardware."
+ },
+ "ProvenMetal": {
+  "slug": "provenmetal",
+  "dom": "provenmetal.com",
+  "web": "https://provenmetal.com",
+  "batch": "Summer 2026",
+  "ts": 4,
+  "loc": "San Francisco, CA, USA",
+  "desc": "AI-native electronics manufacturing for the American industrial base || ProvenMetal manufactures the fastest circuit boards in the United States.\r\n\r\nDomestic circuit board manufacturing is slow and expensive, and while reshoring is happening, the supply chain isn't there yet.\r\n\r\nWe automate the bottlenecks - part procurement, DFM review, and assembly - delivering circuit boards in days instead of weeks.\r\n"
+ },
+ "Artifact": {
+  "slug": "artifact-2",
+  "dom": "artifact.engineer",
+  "web": "https://www.artifact.engineer/",
+  "batch": "Winter 2025",
+  "ts": 4,
+  "loc": "Los Angeles, CA, USA",
+  "desc": "An Collaborative, AI-native IDE for Hardware Engineers || Artifact is a collaborative IDE for hardware engineers - accelerating every step in the engineering lifecycle:\r\n\r\nDesign \u2192 Procurement \u2192 Manufacturing \u2192 Integration \u2192 Test \u2192 Sustainment\r\n\r\nWe've raised $3.5M to build an integrated, verifiable AI copilot with an intuitive UI that reflects how hardware actually gets built. Every artifact is auto-generated and traceable to a single-source of truth.\r\n\r\nWe believe hardware engineering should be rigorous, deliberate, and system-aware. We work directly with customers solving the world's hardest technical problems to modernize how complex hardware is engineered.\r\n\r\nIf you're interested, send your resume & contact info to: careers@artifact.engineer"
+ },
+ "Forge Robotics": {
+  "slug": "forge-robotics",
+  "dom": "forge-robotics.com",
+  "web": "https://forge-robotics.com",
+  "batch": "Fall 2025",
+  "ts": 1,
+  "loc": "San Francisco, CA, USA",
+  "desc": "A robotics intelligence system for metal fabrication || Forge Robotics is changing the way that metal parts are fabricated. We are enabling a future where our intelligent robotic system completes all steps needed to take raw metal stock and transform it into fully welded parts. \r\n\r\nBeginning with welding, we are building a robot-mounted vision system and AI feature detection that creates a real-time 3D map and tells the arm exactly where to go at every instant."
+ },
+ "Proprio Robotics": {
+  "slug": "proprio-robotics",
+  "dom": "propriorobotics.com",
+  "web": "https://www.propriorobotics.com/",
+  "batch": "Summer 2026",
+  "ts": 1,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Robots to maintain and assemble data centers || Proprio Robotics is building state-of-the-art physical intelligence to automate the entire data center lifecycle\u2014from buildout to maintenance to decommissioning. There are currently 400,000 unstaffed data center technicians positions in the United States alone, which means the massive compute needs of AI are being bottlenecked by labor constraints. Proprio is solving this by building robots that do it instead, and is deploying data center maintenance robots starting Q1 2027. "
+ },
+ "Hemlock": {
+  "slug": "hemlock",
+  "dom": "hemlock.inc",
+  "web": "https://hemlock.inc",
+  "batch": "Fall 2026",
+  "ts": 1,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Force + contact dynamics collected at scale for training physical AI. || At Hemlock, we equip workers around the globe with EMG wearables to generate force/contact-annotated egocentric video data to give physical AI models a sense of touch from human data. Force + contact dynamics, collected at scale."
+ },
+ "Remy AI": {
+  "slug": "remy-ai",
+  "dom": "tryremy.ai",
+  "web": "https://www.tryremy.ai/",
+  "batch": "Winter 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Automating dexterous tasks in warehouses with AI-powered robots || Building robots and training models for automating manipulation in warehouse, starting with e-commerce 3PLs"
+ },
+ "Libra Robotics": {
+  "slug": "libra-robotics",
+  "dom": "librabots.com",
+  "web": "https://www.librabots.com/",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "The robot workforce for infrastructure of the AI era || Infrastructure faces rapid expansion and labor shortages. Today, robots struggle to scale to meet customers\u2019 high-mix work needs. Libra builds AI that engineers robots for new tasks across embodiments. We go from each new infra task to field-deployable robots 10x faster. Today, our robots are working on solar farms and piloting in data centers. Contractors pay for completed work as a service, not robots."
+ },
+ "Manifold": {
+  "slug": "manifold-2",
+  "dom": "manifoldindustries.ai",
+  "web": "https://www.manifoldindustries.ai/",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "Los Angeles, CA, USA",
+  "desc": "Drop-in robotic labor that works on Day 1 || The US Warehouse industry spends $75bn on labor each year. Yet, only 10% of US warehouses have any form of automation, because existing robotics are too expensive and hard to integrate. \r\n\r\nManifold deploys autonomous robots that handle picking, loading / unloading, and palletizing \u2014 priced by pick. Integration in hours. No upfront costs. No retrofitting. No need to rebuild the operation around the robot. \r\n\r\nOur mission is to make it easy for any warehouse to adopt robotics."
+ },
+ "Neuron Industries": {
+  "slug": "neuron-industries",
+  "dom": "neuronindustries.com",
+  "web": "https://neuronindustries.com",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "Los Angeles, CA, USA",
+  "desc": "Industrial Controllers built for AI || Neuron is crafting the world\u2019s first purpose-built industrial controller for AI, replacing the antiquated PLCs running every machine and factory. We help customers from chemical processing to nuclear reactors compress controls projects from weeks to hours. "
+ },
+ "Moving Atoms": {
+  "slug": "moving-atoms",
+  "dom": "movingatoms.ai",
+  "web": "https://movingatoms.ai/",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Scan to 3D Model || Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics. \r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data."
+ },
+ "Dawn Industries": {
+  "slug": "dawn-industries",
+  "dom": "dawnxr.com",
+  "web": "https://www.dawnxr.com",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Automatic Diagnosis & Fix for Industrial Automation Cells || VIM connects to the entire cell: PLCs, robots, CNC machines, sensors. When a cell faults, VIM finds the cause, stages the fix, and the operator approves with one click. When a part drifts, VIM catches it seconds after the cut, inside the machine, and recommends the correction. Recovery drops from 30 minutes to under two, saving more than $15,000 per fault in large factories."
+ },
+ "Axonnic": {
+  "slug": "axonnic",
+  "dom": "axonnic.com",
+  "web": "https://www.axonnic.com",
+  "batch": "Fall 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA; Remote",
+  "desc": "Bringing human dexterity to every robot || Axonnic is building the missing data layer for dexterous robotics. Our wearable EMG technology captures human intent, effort and force directly from muscle activity as people demonstrate physical tasks. By revealing the physical signals that video cannot capture, Axonnic gives AI models the data they need to learn more precise and dexterous behaviour. Beyond robotics, this creates a foundation for new forms of human\u2013computer interaction in which technology can understand and respond directly to human movement and intent."
+ },
+ "Mantle": {
+  "slug": "mantle-2",
+  "dom": "",
+  "web": "",
+  "batch": "Fall 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "The pit crew for machines and robots. || Mantle is a full-stack field service company that deploys, fixes and maintains machines for the companies that build them. We're not a marketplace or software tool, we own uptime directly to provide better, more reliable service without burdening your engineers on support calls. \r\n\r\n$500B+ a year is spent to keep machines running in the US, we're coming for all of it.\r\n"
+ },
+ "Pave Robotics": {
+  "slug": "pave-robotics",
+  "dom": "pave-robotics.com",
+  "web": "https://pave-robotics.com",
+  "batch": "Winter 2025",
+  "ts": 3,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Robots that repair roads || Pave Robotics builds robots that seal cracks in asphalt, helping paving companies save time and money. Our robots work 24/7 and deliver higher-quality results than humans."
+ },
+ "twentyfour26": {
+  "slug": "twentyfour26",
+  "dom": "twentyfour26.com",
+  "web": "https://twentyfour26.com/",
+  "batch": "Fall 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Building Autonomous Factories in America, Starting with On-Demand CNC\u2026 || At twentyfour26, we are developing standardized manufacturing cells that bring machines, tooling, workholding, and inspection under a single system. Our models are being developed to interpret CAD designs, plan machining strategies, select tooling and setups, and operate the machines.\r\n\r\nWe're already manufacturing components for hardware companies in and around the Bay Area, with turnaround times as fast as ~48 hours. Operating our own machines allows us to develop and deploy automation against real production workloads.\r\n\r\nOur goal is to make manufacturing 100 different designs as easy as manufacturing 100 units of the same design.\r\n\r\nFrom individual components to complete assemblies, we want to abstract the entire manufacturing infrastructure into an API."
+ },
+ "Agency Tool Company": {
+  "slug": "agency-tool-company",
+  "dom": "agencytool.com",
+  "web": "https://agencytool.com",
+  "batch": "Summer 2026",
+  "ts": 3,
+  "loc": "Denver, CO, USA",
+  "desc": "Reliable infrastructure to build, deploy and manage real-world robots. || Agency Tool Company ships software to robots in the field 20x faster than a Docker pull with ATC Deploy, sending only the bytes that changed and resuming when the network drops. Deployment tooling is the connection between the lab & the field that continually bottlenecks robotics scaling and lacks a strong robotics-native solution. Deploy is live today with 3 launch partners across ag, construction, and logistics robotics.\r\n\r\nOur second product, ATC Build, offers embedded-compute as a CI service so devs can run tests and validate their software on the actual target hardware. Build supports the Nvidia Jetson lineup, Raspberry Pi, and a number of other embedded platform targets.\r\n\r\nJack Morrison and Davis Foster founded and sold Scythe Robotics after deploying hundreds of autonomous mowers across the country; Agency Tool Company is building the robotics deployment platform across hardware and software they wish they had.\r\n\r\nLearn more at https://agencytool.com"
+ },
+ "Robocurve": {
+  "slug": "robocurve",
+  "dom": "robocurve.org",
+  "web": "https://robocurve.org",
+  "batch": "Summer 2026",
+  "ts": 3,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Evals for robots || Robocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot."
+ },
+ "Shepherd Robotics": {
+  "slug": "shepherd-robotics",
+  "dom": "shepherdrobotics.ai",
+  "web": "https://shepherdrobotics.ai/",
+  "batch": "Fall 2026",
+  "ts": 4,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Robots for high skilled labor powering AI infrastructure || Shepherd Robotics builds general purpose robots for skilled physical work across AI infrastructure and advanced manufacturing. Our robots are powered by robot foundation models and use modular, flexible hardware designed to adapt to different environments and tasks. We train our systems on a combination of real world and simulation data so they can learn complex manipulation skills and generalize across workflows. We also provide integration into customers\u2019 existing workflows, starting with data center construction and operations, electrical manufacturing and testing, and electronics manufacturing, where traditional automation struggles with variability, dexterity, and changing environments.\u00a0"
+ },
+ "Asim": {
+  "slug": "asim-group",
+  "dom": "asim-group.com",
+  "web": "https://www.asim-group.com",
+  "batch": "Fall 2026",
+  "ts": 4,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Enable robots to operate safely in the real world. || Asim is building standardized benchmarks for physical intelligence, helping robotics companies understand their robots\u2019 capabilities and safety limits before deployment.\r\nWe test real robots under changing physical conditions, varying shape, weight, friction and material, to identify where performance breaks down and give engineers actionable feedback.\r\n\r\nOur four founders include three PhD researchers, two specializing in robotics, with backgrounds at Sony and NASA JPL and two RoboCup@Home championship wins.\r\n\r\nOur ambition is to become the standard robotics teams use to measure progress and assess readiness for deployment."
+ },
+ "Miru": {
+  "slug": "miru-ml",
+  "dom": "mirurobotics.com",
+  "web": "https://www.mirurobotics.com",
+  "batch": "Summer 2024",
+  "ts": 3,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Config Management for Robotics || Miru makes it easy for robotics teams to manage, version, and deploy robot configurations. Developers use our well-documented APIs and UI components to automate configuration updates for both engineers and operators.\r\n\r\nIn the long term, we're building software infrastructure to accelerate the automation of the physical world."
+ },
+ "Ethos Space Resources": {
+  "slug": "ethos-space-resources",
+  "dom": "ethos-space.com",
+  "web": "https://ethos-space.com",
+  "batch": "Summer 2026",
+  "ts": 2,
+  "loc": "Los Angeles, CA, USA",
+  "desc": "We make silicon on the Moon, to power everything in space. || Ethos makes silicon on the Moon to power terawatt scale data centers. The Moon's surface is 21% silicon. We melt and electrolyze the lunar surface to make raw materials for solar panels. With solar panels made from the Moon, the constraint that limits data center scaling and everything else in space is gone."
+ },
+ "Congruent": {
+  "slug": "congruent",
+  "dom": "congruent.io",
+  "web": "https://congruent.io",
+  "batch": "Winter 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "AI native radars for self-driving cars || At Congruent, we build radars for end-to-end autonomous systems. The most advanced autonomous systems are trained as a single neural network from raw sensor data to navigation actions. For a sensor to be included in these pipelines sensor stacks requires two key properties: access to raw sensor data and a high-fidelity sensor simulator. Current automotive radars have neither, they output heavily processed point clouds and no raw radar simulator exists for driving scenes. Congruent solves both problems: a radar architecture that exposes raw data, paired with a world model based radar simulator. Radar is the only depth sensor at a price point that scales to every car on the road and works in all weather conditions. Congruent is building the radar compatible with the training architectures that will make mass-market vehicles autonomous."
+ },
+ "Zephyr Fusion": {
+  "slug": "zephyr-fusion",
+  "dom": "zephyrfusion.com",
+  "web": "https://www.zephyrfusion.com",
+  "batch": "Fall 2025",
+  "ts": 2,
+  "loc": "San Diego, CA, USA",
+  "desc": "Powering tomorrow's industrial revolution in space || Zephyr Fusion is building the first in-orbit fusion power source: a megawatt-class reactor enabling large-scale industry in space, at a fraction of the cost of equivalent solar.\r\n\r\nFounded by former physicists from Lawrence Livermore and Oak Ridge National Laboratories, Zephyr leverages decades of fusion research to deliver a compact magnetic confinement system designed to take advantage of the space environment."
+ },
+ "Sensei": {
+  "slug": "sensei",
+  "dom": "senseirobotics.com",
+  "web": "https://senseirobotics.com",
+  "batch": "Summer 2024",
+  "ts": 2,
+  "loc": "Boston, MA, USA",
+  "desc": "Robotic Training Data at Scale || Sensei helps robotics companies scale and outsource their training data collection. Our hardware platform enables the collection of human-demonstration data at a tenth of the cost and twice the speed of current teleop approaches. Our software platform acts like Scale AI for robotics data: a large network of paid human operators use our low-cost collection platform to fulfill data-generation requests. "
+ },
+ "Physical Turing": {
+  "slug": "physical-turing",
+  "dom": "physicalturing.ai",
+  "web": "https://physicalturing.ai/",
+  "batch": "Summer 2025",
+  "ts": 2,
+  "loc": "New York City, NY, USA",
+  "desc": "Next generation robot deployer || Physical Turing is a neo robot deployer. Our core tech lets us deploy any robot fast, and every deployment produces the real-world data we use to train our own intelligence.\r\n\r\nWe're starting by automating industrial inspection and security tasks, which have historically had labor shortages due to their safety risks."
+ },
+ "Confetti": {
+  "slug": "confetti",
+  "dom": "confetti.build",
+  "web": "https://confetti.build",
+  "batch": "Fall 2026",
+  "ts": 2,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Build hardware projects using plain-English prompts || Confetti lets anybody design and build hardware projects using plain-English prompts. Making hardware used to take weeks of learning CAD, sourcing compatible parts, and writing firmware. With Confetti, it takes one conversation. Create and edit designs, find components, and order printed parts straight to your doorstep. Start from scratch or remix a community project to make it your own."
+ },
+ "Pacific": {
+  "slug": "pacific",
+  "dom": "pacific.space",
+  "web": "https://pacific.space",
+  "batch": "Summer 2026",
+  "ts": 6,
+  "loc": "San Francisco, CA, USA",
+  "desc": "Robotic factories to mass produce data centers || We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n"
+ }
+}
